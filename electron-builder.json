@@ -1,0 +1,14 @@
+{
+  "appId": "com.electron.vite",
+  "files": ["dist-electron", "dist-react"],
+  "icon": "./desktopicon.png",
+  "mac": {
+    "target": "dmg"
+  },
+  "linux": {
+    "target": "AppImage"
+  },
+  "win": {
+    "target": ["portable", "msi"]
+  }
+}
